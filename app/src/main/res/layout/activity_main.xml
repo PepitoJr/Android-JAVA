@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAR RENTING APP"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/rentcare" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue!"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Louez une  facilement, rapidement et au meilleur prix !"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <EditText
+            android:id="@+id/inputnom"
+            android:layout_width="match_parent"
+            android:layout_height="58sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Entrez votre nom"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnoffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voir les offres" />
+    </LinearLayout>
+</LinearLayout>
